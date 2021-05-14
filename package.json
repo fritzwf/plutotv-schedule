@@ -1,0 +1,24 @@
+{
+  "name": "plutotv-schedule",
+  "version": "1.0.0",
+  "description": "Retrieves the PlutoTV TV schedule.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fritzwf/plutotv-schedule.git"
+  },
+  "keywords": [
+    "npm",
+    "plutotv",
+    "television"
+  ],
+  "author": "Fritz Feuerbacher",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/fritzwf/plutotv-schedule/issues"
+  },
+  "homepage": "https://github.com/fritzwf/plutotv-schedule#readme"
+}
