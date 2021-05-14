@@ -17,9 +17,9 @@
 # Usage
 
 ```
-import { plutotv-schedule } from 'plutotv-schedule';
+const pluto = require('plutotv-schedule');
 
-getPlutoChannelData().then((res) => {
+pluto.getPlutoChannelData().then((res) => {
     if (res && res.length) {
       console.log('Pluto channel data: ' + JSON.stringify(res, null, 2));
     }
@@ -29,7 +29,7 @@ getPlutoChannelData().then((res) => {
 ### You can also request data in hours from the current times. 12 hours is the max.
 
 ```
-getPlutoChannelData(3).then((res) => {
+pluto.getPlutoChannelData(3).then((res) => {
     if (res && res.length) {
       console.log('Pluto channel data: ' + JSON.stringify(res, null, 2));
     }
